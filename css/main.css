@@ -893,3 +893,38 @@ button:active {
 [data-theme="dark"] .history-item .time {
     opacity: 0.5;
 }
+
+/* 输入输出区域 */
+textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    resize: vertical;
+    background-color: #ffffff;
+}
+
+[data-theme="dark"] textarea {
+    background-color: var(--background);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+pre {
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    color: var(--text-color);
+}
