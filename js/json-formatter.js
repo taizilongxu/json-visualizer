@@ -226,30 +226,22 @@ class JSONVisualizer {
                 if (Array.isArray(data)) {
                     if (data.length === 0) return '[]';
                     
-                    // 不再限制元素数量，显示所有元素
                     const items = data.map((item, index) => {
                         return `\n${nextIndent}${this.renderJSONToHTML(item, level + 1)}`;
                     }).join(',');
                     
-                    // 将完整数组转为JSON字符串用于复制
                     const fullArrayJson = JSON.stringify(data);
-                    let result = `<span class="collapsible">[<span class="toggle-icon">▼</span><span class="content">${items}\n${indent}</span>]<span class="array-length">(${data.length})</span><span class="copy-btn" title="复制数组" data-value='${this.escapeHtml(fullArrayJson)}'>📋</span></span>`;
-                    
-                    return result;
+                    return `<span class="collapsible">[<span class="toggle-icon">▼</span><span class="content">${items}\n${indent}</span>]<span class="array-length">(${data.length})</span><span class="copy-btn" title="复制数组" data-value='${this.escapeHtml(fullArrayJson)}'>📋</span></span>`;
                 } else {
                     const entries = Object.entries(data);
                     if (entries.length === 0) return '{}';
                     
-                    // 不再限制属性数量，显示所有属性
                     const items = entries.map(([key, value]) => {
                         return `\n${nextIndent}<span class="key">"${this.escapeHtml(key)}"</span>: ${this.renderJSONToHTML(value, level + 1)}`;
                     }).join(',');
                     
-                    // 将完整对象转为JSON字符串用于复制
                     const fullObjectJson = JSON.stringify(data);
-                    let result = `<span class="collapsible">{<span class="toggle-icon">▼</span><span class="content">${items}\n${indent}</span>}<span class="copy-btn" title="复制对象" data-value='${this.escapeHtml(fullObjectJson)}'>📋</span></span>`;
-                    
-                    return result;
+                    return `<span class="collapsible">{<span class="toggle-icon">▼</span><span class="content">${items}\n${indent}</span>}<span class="copy-btn" title="复制对象" data-value='${this.escapeHtml(fullObjectJson)}'>📋</span></span>`;
                 }
             default:
                 return '';
