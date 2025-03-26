@@ -40,7 +40,7 @@ Simply visit [https://taizilongxu.github.io/json-visualizer](https://taizilongxu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yequ/json-visualizer.git
+git clone https://github.com/taizilongxu/json-visualizer.git
 cd json-visualizer
 ```
 
@@ -104,9 +104,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 📧 Contact
 
-Ye Qu - [@yequ](https://github.com/yequ)
+taizilongxu - [@taizilongxu](https://github.com/taizilongxu)
 
-Project Link: [https://github.com/yequ/json-visualizer](https://github.com/yequ/json-visualizer)
+Project Link: [https://github.com/taizilongxu/json-visualizer](https://github.com/taizilongxu/json-visualizer)
 
 ## 中文
 
@@ -152,7 +152,7 @@ https://taizilongxu.github.io/json-visualizer
 
 1. 克隆项目
 ```bash
-git clone https://github.com/yequ/json-visualizer.git
+git clone https://github.com/taizilongxu/json-visualizer.git
 ```
 
 2. 直接在浏览器中打开 `index.html` 即可运行
