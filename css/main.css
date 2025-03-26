@@ -260,8 +260,17 @@ textarea, pre {
 
 /* 单独调整输入框样式 */
 textarea {
-    padding: 1.2rem;
-    background: #ffffff;
+    width: 100%;
+    min-height: 200px;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    resize: vertical;
+    background-color: var(--background);
+    color: var(--text-color);
 }
 
 /* 单独调整输出框样式 */ 
@@ -882,8 +891,9 @@ button:active {
 }
 
 [data-theme="dark"] textarea {
-    background: #ffffff;
-    color: var(--text);
+    background-color: var(--background);
+    color: var(--text-color);
+    border-color: var(--border-color);
 }
 
 [data-theme="dark"] pre {
