@@ -34,7 +34,7 @@ A powerful, lightweight, and user-friendly JSON visualization tool that helps de
 
 ### 🚀 Quick Start
 
-Simply visit [https://yequ.github.io/json-visualizer](https://yequ.github.io/json-visualizer) to start using JSON Visualizer online.
+Simply visit [https://taizilongxu.github.io/json-visualizer](https://taizilongxu.github.io/json-visualizer) to start using JSON Visualizer online.
 
 #### Local Development
 
@@ -113,7 +113,7 @@ Project Link: [https://github.com/yequ/json-visualizer](https://github.com/yequ/
 一个高性能、易用的在线 JSON 可视化工具。
 
 ## 在线体验
-https://yequ.github.io/json-visualizer
+https://taizilongxu.github.io/json-visualizer
 
 ## 功能特点
 
@@ -141,7 +141,7 @@ https://yequ.github.io/json-visualizer
 
 ## 使用说明
 
-1. 访问 [在线工具](https://yequ.github.io/json-visualizer)
+1. 访问 [在线工具](https://taizilongxu.github.io/json-visualizer)
 2. 在左侧文本框中输入或粘贴 JSON 数据
 3. JSON 数据会自动格式化并在右侧显示
 4. 使用顶部按钮可以进行 JSON 转义/去除转义、压缩等操作
